@@ -65,7 +65,7 @@ This setup configures the host as a transparent bridge, routing and translating 
 
 ## Script
 
-To automate the process this steps has been included in the script `share_internet.sh` in the host script section
+To automate the process this steps has been included in the script [`share_internet.sh`](../scripts/host/share_internet.sh) in the host script section
 
 
 ### Step 2: Assign Static IP to BBB USB Interface on Host PC
@@ -112,6 +112,7 @@ ping google.com
 ```
 
 Success in both tests indicates that your BBB is now connected to the internet via your host PC.
+![alt text](img/ping.png)
 
 ## Script
 

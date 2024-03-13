@@ -104,7 +104,6 @@ Upon deploying the image to your device, you can verify OpenVPN's installation b
 openvpn --version
 ```
 ![alt text](img/openvpn-version.png)
-
 This command should output the OpenVPN version installed, indicating successful inclusion in your Yocto Project image.
 
 ## Conclusion
