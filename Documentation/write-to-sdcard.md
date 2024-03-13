@@ -6,7 +6,7 @@
 This script facilitates the writing of a Yocto-generated `.wic` image to an SD card, enabling booting on devices like the BeagleBone Black. The updated script allows specifying the target SD card device (e.g., `/dev/sda`, `/dev/sdb`, `/dev/sdc`) as a command-line argument, offering greater flexibility and safety.
 
 ### Script Location 
-- The Script can be found under `/yocto/scripts` folder 
+- The Script can be found under `/yocto/scripts` folder with the name [write-to-sdcard.sh](../scripts/host/write-to-sdcard.sh)
 
 ### Prerequisites
 

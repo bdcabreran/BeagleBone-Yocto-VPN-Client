@@ -24,7 +24,7 @@ This document outlines the steps taken to build a Yocto Project image for Beagle
 ### 1. Prepare the Environment
 
 Ensure you have the Yocto Project's `poky` directory set up for the `kirkstone` release. This serves as the base for our project.
-check note `building-image.md`
+check note [`building-image.md`](building-image.md)
 
 ### 2. Clone `meta-openembedded`
 

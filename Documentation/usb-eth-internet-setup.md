@@ -116,7 +116,9 @@ Success in both tests indicates that your BBB is now connected to the internet v
 
 ## Script
 
-To automate the process this steps has been included in the script `setup_network.sh` in the host script section
+To automate the process this steps has been included in the script 
+[`setup_network.sh`](../scripts/target/setup_network.sh)
+in the host script section
 
 ## Troubleshooting Tips
 
