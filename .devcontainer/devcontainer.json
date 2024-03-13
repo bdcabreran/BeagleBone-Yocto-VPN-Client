@@ -61,4 +61,11 @@
     // Example devcontainer.json snippet
     "workspaceMount": "source=${localWorkspaceFolder},target=/yocto,type=bind",
     "workspaceFolder": "/yocto"
+
+    // Add runArgs to include device mappings
+    // Use it only if you are sure these devices exists otherwise it will generate an error 
+    // "runArgs": [
+    //     "--device=/dev/ttyUSB0:/dev/ttyUSB0",
+    //     "--device=/dev/sda:/dev/sda"
+    // ]
 }
