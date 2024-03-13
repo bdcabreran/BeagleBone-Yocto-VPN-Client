@@ -63,6 +63,10 @@ IP masquerading via `iptables` enables a device (like the BeagleBone Black) to a
 
 This setup configures the host as a transparent bridge, routing and translating traffic between the BBB and the internet.
 
+## Script
+
+To automate the process this steps has been included in the script `share_internet.sh` in the host script section
+
 
 ### Step 2: Assign Static IP to BBB USB Interface on Host PC
 
@@ -108,6 +112,10 @@ ping google.com
 ```
 
 Success in both tests indicates that your BBB is now connected to the internet via your host PC.
+
+## Script
+
+To automate the process this steps has been included in the script `setup_network.sh` in the host script section
 
 ## Troubleshooting Tips
 
