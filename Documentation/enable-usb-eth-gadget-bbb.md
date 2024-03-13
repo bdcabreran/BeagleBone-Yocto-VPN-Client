@@ -87,4 +87,11 @@ usb0      Link encap:Ethernet  HWaddr D6:7D:99:A6:31:81
 
 Following these steps should enable the USB Ethernet gadget functionality on your BeagleBone board, allowing you to establish a network connection over USB. This can be particularly useful for debugging or when a standard Ethernet connection is not available.
 
+## Next Steps 
+
+The next step is related to share internet between host and beaglebone board using the driver we just enable, for this follow the guide 
+`usb-eth-internet-setupmd` 
+
+
 ---
+
