@@ -30,7 +30,7 @@ fi
 
 # Unmount the device if mounted
 echo "Attempting to unmount ${DEVICE}*..."
-umount ${DEVICE}* 2>/dev/null
+sudo umount ${DEVICE}* 2>/dev/null
 
 # Write the image to the SD card
 echo "Writing image to $DEVICE. Please wait..."
