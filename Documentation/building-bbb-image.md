@@ -83,5 +83,3 @@ After the build process is complete, the next step is to flash the generated ima
 You've successfully built and flashed an embedded Linux image for the BeagleBone board using the Yocto Project. Explore the possibilities by customizing your build or adding new layers to support additional hardware and features.
 
 ---
-
-Feel free to contribute to this guide or suggest improvements. Happy building!

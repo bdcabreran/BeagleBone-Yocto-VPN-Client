@@ -89,8 +89,7 @@ Following these steps should enable the USB Ethernet gadget functionality on you
 
 ## Next Steps 
 
-The next step is related to share internet between host and beaglebone board using the driver we just enable, for this follow the guide 
-`usb-eth-internet-setupmd` 
+The next step is related to share internet between host and beaglebone board using the driver we just enable, for this follow the guide [usb-eth-internet-setup](usb-eth-internet-setup.md)
 
 
 ---
