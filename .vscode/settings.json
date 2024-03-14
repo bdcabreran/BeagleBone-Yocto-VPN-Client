@@ -1,0 +1,19 @@
+{
+    "bitbake.pathToBuildFolder": "${workspaceFolder}/build",
+    "bitbake.pathToEnvScript": "${workspaceFolder}/poky/oe-init-build-env",
+    "bitbake.pathToBitbakeFolder": "${workspaceFolder}/poky/bitbake",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/poky/bitbake/lib",
+        "${workspaceFolder}/poky/meta/lib"
+    ],
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/poky/bitbake/lib",
+        "${workspaceFolder}/poky/meta/lib"
+    ],
+    "bitbake.buildConfigurations": [
+        {
+            "name": "beaglebone-yocto",
+            "pathToBuildFolder": "${workspaceFolder}/build"
+        }
+    ],
+}
