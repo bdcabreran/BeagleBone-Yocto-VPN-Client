@@ -52,7 +52,8 @@ With the build environment set up, proceed to build the image for the BeagleBone
 After the build process is complete, the next step is to flash the generated image onto a microSD card.
 
 0. **Use `write-to-sdcard.sh` script**
-    In case you want to automate the creation of a booteable sd-card please refer to the script `write-to-sdcard.sh` located under `/yocto/scripts` and check its readme file at `/yocto/Documentation/write-to-sdcard.sh`, otherwise you can follow steps 1 and 2. 
+
+    In case you want to automate the creation of a booteable sd-card please refer to the script [`write-to-sdcard.sh`](../scripts/host/write-to-sdcard.sh) located under `/yocto/scripts/host` and check its readme file at `/yocto/Documentation/write-to-sdcard.sh`, otherwise you can follow steps 1 and 2. 
 
 1. **Navigate to the Images Directory**
 
