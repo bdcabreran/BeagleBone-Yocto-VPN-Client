@@ -15,5 +15,5 @@
             "name": "beaglebone-yocto",
             "pathToBuildFolder": "${workspaceFolder}/build"
         }
-    ],
+    ]
 }
