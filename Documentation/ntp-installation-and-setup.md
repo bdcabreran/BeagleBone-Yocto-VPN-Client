@@ -60,3 +60,20 @@ Fri Mar  9 12:44:39 UTC 2018
 root@beaglebone-yocto:~# date
 Thu Mar 14 14:59:42 UTC 2024
 ```
+
+
+
+## Yocto Recipe:
+
+To automate the previously described process, a recipe has been developed within the directory [`sources/meta-custom/recipes-custom/ntp-scripts`](../sources/meta-custom/recipes-custom/ntp-scripts). This recipe facilitates automation by:
+
+- Installing the script [update-time.sh](../sources/meta-custom/recipes-custom/ntp-scripts/files/update-time.sh), which checks for internet connectivity and initializes the NTP service.
+
+Additionally, a patch for the NTP recipe has been introduced at [`/sources/meta-custom/recipes-support/ntp/ntp_%.bbappend`](../sources/meta-custom/recipes-support/ntp/ntp_%.bbappend). This patch substitutes an existing configuration file with a version that specifies certain NTP servers, located at `/etc/ntp.conf`.
+
+It's crucial to highlight the importance of implementing the NTP protocol, particularly in scenarios where a Real-Time Clock (RTC) is absent. Ensuring accurate time synchronization is essential for services relying on internet connectivity, such as VPN or SSH, to function correctly.
+
+## Script Execution : 
+Below there is an image showing the script being called and successfully updating date. 
+
+![alt text](img/time-update.png)
