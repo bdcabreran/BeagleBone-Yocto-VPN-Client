@@ -22,7 +22,7 @@ if check_internet; then
     /usr/bin/update-time.sh
 
     echo "Starting OpenVPN..."
-    openvpn --config /usr/bin/client1.opvn
+    openvpn --config /usr/bin/client1.ovpn
 else
     echo "Skipping operations due to lack of internet connectivity."
 fi

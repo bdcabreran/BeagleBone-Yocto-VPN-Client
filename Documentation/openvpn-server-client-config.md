@@ -97,3 +97,16 @@ It's possible to set up a BeagleBone Black as an OpenVPN server, especially usef
 
 This guide aims to facilitate a smooth and secure OpenVPN setup, ensuring robust remote access and network security for a wide array of devices.
 
+## Yocto Scripts:
+
+To streamline certain operations on the BeagleBone side, a recipe named [openvpn-scripts.bb](../sources/meta-custom/recipes-custom/openvpn-scripts/openvpn-scripts.bb) has been developed. This includes a script, [start-vpn-client.sh](../sources/meta-custom/recipes-custom/openvpn-scripts/files/start-vpn-client.sh), that is installed in the `/usr/bin` directory of the root filesystem. It automates the execution of essential tasks such as:
+
+1. Checking internet connectivity.
+2. Synchronizing the date using the NTP process.
+3. Establishing a connection to the server using `client1.ovpn`, which must be populated with the `.ovpn` file provided by the server.
+
+to use it, copy the `.ovpn` provided by the server to the `client1.ovpn` file under `/usr/bin` and call the command 
+
+```bash
+/usr/bin/start-vpn-client.sh
+```
